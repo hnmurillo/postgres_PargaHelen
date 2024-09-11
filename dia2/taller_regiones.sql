@@ -1,3 +1,6 @@
+
+
+
 create table Persona(
 	id SERIAL primary key not null,
 	nombre VARCHAR(250),
@@ -120,7 +123,8 @@ select * from vista_departamentos_municipios;
 
 -- Insertar una nueva persona para test
 INSERT INTO Persona (nombre, apellido, municipio_nacimiento, municipio_domicilio)
-VALUES ('Paula', 'Muñoz', 'Bucaramanga', 'Girón');
+VALUES ('Laura', 'Diaz', 'Bogota', 'floridablanca');
+
 
 
 --
